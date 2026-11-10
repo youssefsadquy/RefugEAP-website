@@ -169,7 +169,8 @@ This is a coursework project, not a production-ready deployment. Before using it
 
 - Replace the demo users and passwords created by the SQL seed file.
 - Move database and mail credentials out of `application.properties` and into environment variables or a secrets manager.
-- Re-enable CSRF protection and review the security rules for the admin routes.
+- CSRF protection is currently disabled in `ConfigSecurity`; turn it back on and re-test the admin forms before exposing the app.
+- Review the security rules for the admin routes.
 - Remove local IDE files and any development keystores from the published repository.
 - Review file upload validation before accepting contributions from the public.
 
